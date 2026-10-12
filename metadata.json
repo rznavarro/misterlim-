@@ -1,0 +1,6 @@
+{
+  "name": "MisterLim | Limpieza profesional a domicilio",
+  "description": "Sitio web oficial de MisterLim: limpieza y sanitización profesional a domicilio en la Región Metropolitana de Santiago. Alfombras, tapices, colchones, pisos y oficinas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

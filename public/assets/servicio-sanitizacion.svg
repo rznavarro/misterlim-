@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" width="900" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4F8FC"/>
+      <stop offset="100%" stop-color="#E3ECF5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#D8E8F5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D8E8F5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2B7CB0"/>
+      <stop offset="100%" stop-color="#0E2236"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <circle cx="450" cy="330" r="260" fill="url(#glow)"/>
+  
+  <!-- Subtle decorative rings representing ozone / micro-mist diffusion -->
+  <circle cx="450" cy="320" r="210" fill="none" stroke="#2B7CB0" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <circle cx="450" cy="320" r="150" fill="none" stroke="#2B7CB0" stroke-opacity="0.18" stroke-width="1.5"/>
+  <circle cx="450" cy="320" r="95" fill="none" stroke="#3C9A78" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- Nebulizer / Ozone technological device vector illustration -->
+  <g transform="translate(340, 190)">
+    <!-- Machine Base -->
+    <rect x="40" y="160" width="140" height="120" rx="24" fill="#FFFFFF" stroke="#D3DDE8" stroke-width="2"/>
+    <!-- Tank Chamber -->
+    <rect x="55" y="60" width="110" height="100" rx="18" fill="#F0F6FA" stroke="#2B7CB0" stroke-opacity="0.3" stroke-width="1.5"/>
+    <path d="M 65 110 Q 110 118 155 110" stroke="#2B7CB0" stroke-width="1.5" stroke-opacity="0.4" fill="none"/>
+    <!-- Nozzle / Diffuser head -->
+    <path d="M 85 60 L 85 25 Q 85 10 110 10 Q 135 10 135 25 L 135 60 Z" fill="url(#metal)"/>
+    <ellipse cx="110" cy="15" rx="20" ry="7" fill="#4A9FD5"/>
+    <ellipse cx="110" cy="14" rx="10" ry="3" fill="#FFFFFF" opacity="0.8"/>
+    <!-- Power & Mode indicators -->
+    <circle cx="110" cy="210" r="16" fill="#F4F9FD" stroke="#2B7CB0" stroke-width="1.5"/>
+    <circle cx="110" cy="210" r="6" fill="#2B7CB0"/>
+    <circle cx="80" cy="240" r="4" fill="#3C9A78"/>
+    <text x="88" y="243" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" fill="#5A6B7E" letter-spacing="0.06em">OZONO</text>
+    <circle cx="132" cy="240" r="4" fill="#2B7CB0"/>
+    <text x="140" y="243" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" fill="#5A6B7E" letter-spacing="0.06em">NEBULIZACIÓN</text>
+
+    <!-- Dispersion Mist particles -->
+    <path d="M 110 10 C 110 -20 70 -50 40 -70" stroke="#2B7CB0" stroke-width="2" stroke-dasharray="3 5" stroke-linecap="round" fill="none" opacity="0.45"/>
+    <path d="M 115 10 C 130 -30 170 -60 210 -80" stroke="#2B7CB0" stroke-width="2" stroke-dasharray="3 5" stroke-linecap="round" fill="none" opacity="0.45"/>
+    <path d="M 110 8 C 110 -35 110 -60 110 -90" stroke="#3C9A78" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round" fill="none" opacity="0.55"/>
+    
+    <circle cx="30" cy="-75" r="9" fill="#D9EEFC" opacity="0.85"/>
+    <circle cx="220" cy="-85" r="13" fill="#D9EEFC" opacity="0.85"/>
+    <circle cx="110" cy="-100" r="11" fill="#E1F5EC" opacity="0.85"/>
+    <circle cx="75" cy="-50" r="5" fill="#2B7CB0" opacity="0.35"/>
+    <circle cx="150" cy="-60" r="6" fill="#3C9A78" opacity="0.35"/>
+  </g>
+</svg>
